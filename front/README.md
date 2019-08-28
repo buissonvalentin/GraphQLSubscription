@@ -6,6 +6,26 @@ In the project directory, you can run:
 
 ### `npm start`
 
+## Select client
+
+# If you lauch Apollo server
+
+In `index.js` comment the setup for yoga server :
+
+`
+connectApollo();
+//connectYoga();
+`
+
+# If you lauch Yoga server
+
+In `index.js` comment the setup for apollo server :
+
+`
+//connectApollo();
+connectYoga();
+`
+
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
