@@ -1,8 +1,3 @@
 # GraphQLSubscription
 
-## Start Server
-
-#) Apollo
-in "back" folder
-npm start`
-`
+See "back" and "front" folder to see how to launch project 
