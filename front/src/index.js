@@ -45,10 +45,8 @@ const connectSocket = (isApolloServer = true) => {
     httpLink
   );
 
-  // Si la socket ne se connecte pas au serveur apollo
-  // remplcer terminatingLink par: ApolloLink.from([terminatingLink])
   client = new ApolloClient({
-    link: terminatingLink, //ApolloLink.from([terminatingLink])
+    link: terminatingLink,
     cache: new InMemoryCache()
   });
 };
